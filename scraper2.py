@@ -4,10 +4,10 @@ import datetime as dt
 
 # Configuration de l'accès à Reddit
 reddit = praw.Reddit(user_agent=True, 
-                     client_id='st05beDxBFujTu7okNsGcA', 
-                     client_secret='EJuUfQ6fvvXoliNYwatIqThgPhNtOw', 
-                     username='CriticismHot3499', 
-                     password='Kaizer741')
+                     client_id='your client_id', 
+                     client_secret='your client_secret', 
+                     username='your username', 
+                     password='your Passwd')
 
 # Vérification de la connexion à l'API
 try:
